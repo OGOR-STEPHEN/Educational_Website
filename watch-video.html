@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>watch</title>
+
+    <!---font awesome cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <!--custom css file link-->
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <!--Header section starts-->
+
+    <header class="header">
+
+        <section class="flex">
+            <a href="Home.html" class="logo">Educa.</a>
+
+            <form action="" method="post" class="search-form">
+                <input type="text" name="search-box" placeholder="search-courses..." required maxlength="100">
+                <button type="submit" class="fas fa search" name="search-box"></button>
+            </form>
+
+            <div class="icons">
+                <div id="menu-btn" class="fas fa bars"></div>
+                <div id="search-btn" class="fas fa search"></div>
+                <div id="user-btn" class="fas fa user"></div>
+                <div id="toggle-btn" class="fas fa user"></div>
+            </div>
+
+            <div class="profile">
+                <img src="IMAGES/pic-1.jpg" alt="">
+                <h1>Shaik Anas</h1>
+                <span>student</span>
+                <a href="profile.html" class="btn">view profile</a>
+                <div class="flex-btn">
+                    <a href="login.html" class="option-btn">login</a>
+                    <a href="register.html" class="option-btn">register</a>
+                </div>
+            </div>
+
+        </section>
+    </header>
+    <!--Header section ends-->
+    <!--Side bar section starts-->
+    
+    <div class="side-bar">
+
+        <div class="close-side-bar">
+            <i class="fas fa-times"></i>
+        </div>
+
+        <div class="profile">
+            <img src="IMAGES/pic-1.jpg" alt="">
+            <h1>Shaik Anas</h1>
+            <span>student</span>
+            <a href="profile.html" class="btn">view profile</a>
+        </div>
+        <nav class="navbar">
+            <a href="Home.html"><i class="fas fa-home"></i><span>home</span></a>
+            <a href="about.html"><i class="fas fa-question"></i><span>about us</span></a>
+            <a href="courses.html"><i class="fas fa-graduation-cap"></i><span>courses</span></a>
+            <a href="teachers.html"><i class="fas fa-chalkboard-user"></i><span>teachers</span></a>
+            <a href="contact.html"><i class="fas fa-headset"></i><span>contact us</span></a>
+        </nav>
+    </div>
+    <!--Side bar section ends-->
+
+    <!--watch video section starts-->
+
+    <section class="watch-video">
+
+        <div class="video-details">
+            <video src="IMAGES/vid-1.mp4" class="video" poster="IMAGES/post-1-1.png" controls autoplay></video>
+            <h3 class="title">complete HTML tutorial (part 01)</h3>
+            <div class="info">
+                <p><i class="fas fa-calendar"></i><span>21-25-2022</span></p>
+                <p><i class="fas fa-heart"></i><span>45 likes</span></p>
+            </div>
+            <div class="tutor">
+                <img src="IMAGES/pic-2.jpg" alt="">
+                <div>
+                    <h3>johm  doe</h3>
+                    <span>developer</span>
+                </div>
+            </div>
+            <form action="" method="post" class="flex">
+                <a href="playlist.html" class="inline-btn">view playlist</a>
+                <button type="submit"><i class="fas fa-heart"></i><span>like</span></button>
+            </form>
+            <div class="descriptions">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore deleniti, explicabo nihil officia dolores labore!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione inventore error explicabo saepe doloribus distinctio! Quae perferendis dolor soluta! Et reiciendis facere dignissimos consequatur odio. Officia amet voluptas repellendus sit.</p>
+            </div>
+        </div>
+
+    </section>
+    <!--watch video section starts-->
+
+    <!--comment section starts-->
+
+    <section class="comments">
+
+        <h1 class="heading">Add a Comment</h1>
+
+        <form action="" method="post" class="add-comment">
+            <textarea name="commen_box" required maxlength="1000" placeholder="write your comments here......" cols="30" rows="10"></textarea>
+            <input type="submit" value="add comment" name="add_comment" class="inline-btn">
+        </form>
+        <h1 class="heading">6 Comments</h1>
+
+        <div class="show-comments">
+
+            <div class="box">
+                <div class="user">
+                    <img src="IMAGES/pic-1.jpg" alt="">
+                    <div>
+                        <h3>shaikh anas</h3>
+                        <span>21-25-2022</span>
+                    </div>
+                </div>
+                <p class="comment">this is a comment from shaikh anas</p>
+                <form action="" method="post" class="flex-btn">
+                    <button type="submit" class="inline-option-btn" name="edit_comment">edit comment</button>
+                    <button type="submit" class="inline-option-btn" name="delete_comment">delete comment</button>
+                </form>
+            </div>
+
+            <div class="box">
+                <div class="user">
+                    <img src="IMAGES/pic-1.jpg" alt="">
+                    <div>
+                        <h3>John Doe</h3>
+                        <span>21-25-2022</span>
+                </div>
+            </div>
+            <p class="text">wow amazing video! vhamks for the source code</p>
+        </div>
+
+        <div class="box">
+            <div class="user">
+                <img src="IMAGES/pic-1.jpg" alt="">
+                <div>
+                    <h3>John Doe</h3>
+                    <span>21-25-2022</span>
+            </div>
+        </div>
+        <p class="text">wow amazing video! vhamks for the source code</p>
+    </div>
+
+    <div class="box">
+        <div class="user">
+            <img src="IMAGES/pic-1.jpg" alt="">
+            <div>
+                <h3>John Doe</h3>
+                <span>21-25-2022</span>
+        </div>
+    </div>
+    <p class="text">wow amazing video! vhamks for the source code</p>
+</div>
+    </section>
+    <!--comment section ends-->
+    <!--Footer section starts-->
+    <footer class="footer">
+        &copy; copyright @ 2024 by <span>O.S.O</span> | all rights reserved!
+    </footer>
+    <!--Footer section ends-->
+
+
+    <!--custom js file link-->
+    <script src="JS/script.js"></script>
+</body>
+</html>
